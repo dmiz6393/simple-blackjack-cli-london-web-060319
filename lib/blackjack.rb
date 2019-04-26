@@ -19,7 +19,7 @@ gets.chomp
 end
 
 def end_game
-  "Sorry, you hit #{card_total}.Thank you for playing!"
+puts "Sorry, you hit #{card_total}.Thank you for playing!"
 end
 
 def initial_round
@@ -28,7 +28,7 @@ def initial_round
   return card_total
 end
 
-def hit?
+def hit?(number)
   # code hit? here
 end
 
