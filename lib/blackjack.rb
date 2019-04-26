@@ -7,7 +7,7 @@ rand(1..11)
 end
 
 def display_card_total(card_total)
- puts "Your cards adds up to #{card_total}"
+ puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -19,7 +19,7 @@ gets.chomp
 end
 
 def end_game
-  "Sorry, you hit #{card_total}. Thank you for playing!"
+  "Sorry, you hit #{card_total}.Thank you for playing!"
 end
 
 def initial_round
