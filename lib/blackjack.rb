@@ -19,7 +19,7 @@ gets.chomp
 end
 
 def end_game(card_total)
-puts "Sorry, you hit #{card_total}.Thank you for playing!"
+puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
@@ -31,11 +31,11 @@ end
 def hit?(card_total)
   prompt_user
   input=get_user_input
-    if input=='h'then
+    if input=='h' then
     deal_card
     card_total+=deal_card
   elsif 
-    input=='s'then
+    input=='s' then
       card_total
   else 
     invalid_command
