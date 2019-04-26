@@ -50,6 +50,12 @@ end
 #####################################################
 
 def runner
-  # code runner here
-end
+ welcome
+ card_total=initial_round
+ begin
+ deal_card
+ card_total=hit?(card_total)
+ display_card_total(card_total)
+ prompt_user
+ end_until card_total>21 
     
