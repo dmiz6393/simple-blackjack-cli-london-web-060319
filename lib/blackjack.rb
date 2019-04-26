@@ -32,7 +32,7 @@ def hit?
 end
 
 def invalid_command
-  puts "Entera valid comment"
+  puts "Enter a valid comment"
 end
 
 #####################################################
